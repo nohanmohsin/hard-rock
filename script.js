@@ -16,7 +16,7 @@ searchBtn.addEventListener("click", function () {
       <div class="col-md-9">
           <h3 class="lyrics-name">${data.data[index].title}</h3>
           <p class="author lead">Album by <span>${data.data[index].artist.name}</span></p>
-          <a style="font-size: 18px; color: aliceblue; text-decoration: none;" href = ${data.data[index].link}>link here</a>
+          <a style="font-size: 18px; color: #28a745; text-decoration: none;" href = ${data.data[index].link}>link here</a>
       </div>
       <div class="col-md-3 text-md-right text-center">
           <button id="${data.data[index].id}" class="btn btn-success lyrics-btn ">Get Lyrics</button>
